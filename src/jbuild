@@ -1,0 +1,10 @@
+(jbuild_version 1)
+
+(library
+ ((name blowfish)
+  (public_name blowfish)
+  (flags (:standard -safe-string))
+  (synopsis "Blowfish cryptography")
+  (libraries (cryptokit))
+  ))
+
