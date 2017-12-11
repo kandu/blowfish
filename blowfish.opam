@@ -1,0 +1,19 @@
+opam-version: "1.2"
+maintainer: "zandoye@gmail.com"
+authors: [ "ZAN DoYe" ]
+homepage: "https://bitbucket.org/zandoye/blowfish/"
+bug-reports: "https://bitbucket.org/zandoye/blowfish/issues"
+license: "MIT"
+tags: [
+  "crypt"
+  "blowfish"
+]
+dev-repo: "hg://https://bitbucket.org/zandoye/blowfish"
+build: [
+  [make]
+]
+depends: [
+  "cryptokit"
+  "jbuilder" {build}
+]
+available: [ocaml-version >= "4.02.3"]
